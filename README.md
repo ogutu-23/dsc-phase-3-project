@@ -50,6 +50,7 @@ The performance of each model was evaluated using accuracy, precision, recall, F
 Logistic Regression
 
 Accuracy: [1.00]
+
 Classification Report:      precision    recall  f1-score   support
 
            0       1.00      1.00      1.00        29
@@ -63,6 +64,7 @@ weighted avg       1.00      1.00      1.00        61
 ## Decision Trees
 
 Accuracy: 0.7705
+
 Classification Report:
               precision    recall  f1-score   support
 
