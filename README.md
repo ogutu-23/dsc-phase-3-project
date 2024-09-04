@@ -36,6 +36,25 @@ The data used in this analysis contains data collected from the dataset: Heart d
 * Patients with heart disease tend to have a lower maximum heart rate achieved compared to those without heart disease.
 * Higher rest ecg higher chances of having the disease.
 
+## Models
+
+Two models were trained and evaluated on the dataset:
+
+Logistic Regression: A logistic regression model was trained to predict the probability of [target variable] based on the input features.
+Decision Trees: A decision tree classifier was trained to predict the class labels of the target variable.
+
+## Results
+
+The performance of each model was evaluated using accuracy, precision, recall, F1-score, and confusion matrices. The results are summarized below:
+
+Logistic Regression
+
+Accuracy: [1.00]
+Classification Report: [   precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        29
+           1       1.00      1.00      1.00        32]
+
   
 
 
