@@ -11,5 +11,10 @@ A classification problem in data science is a type of supervised learning proble
 ## Data understanding and Data Analysis
 The data used in this analysis contains data collected from the dataset: Heart disease-prediction. A heart disease prediction dataset typically consists of various features related to patient characterisctics and medical history. These features can include age, sex, blood pressure, cholestorol levels, smoking habits and other relevant factors. The dataset may also contain a target variable indicating whether the patient has a heart disease or not.
 
+Distribution of each column.
+
+![vis2](https://github.com/user-attachments/assets/77cdd2bf-bfbd-499f-ac1e-80cc047df6e3)
+
+
 
 
