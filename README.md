@@ -50,12 +50,39 @@ The performance of each model was evaluated using accuracy, precision, recall, F
 Logistic Regression
 
 Accuracy: [1.00]
-Classification Report: [   precision    recall  f1-score   support
+Classification Report:      precision    recall  f1-score   support
 
            0       1.00      1.00      1.00        29
-           1       1.00      1.00      1.00        32]
+           1       1.00      1.00      1.00        32
 
-  
+    accuracy                           1.00        61
+   macro avg       1.00      1.00      1.00        61
+weighted avg       1.00      1.00      1.00        61
+
+
+## Decision Trees
+
+Accuracy: 0.7705
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.71      0.86      0.78        29
+           1       0.85      0.69      0.76        32
+
+    accuracy                           0.77        61
+   macro avg       0.78      0.77      0.77        61
+weighted avg       0.78      0.77      0.77        61
+
+Confusion Matrix: [[25, 4]
+                  [10  22]]
+                  
+## Comparison
+
+Both models achieved reasonable accuracy scores, with the Decision Trees model performing slightly better. However, the classification reports and confusion matrices reveal some differences in the models' performance.
+
+## Conclusion
+
+This comparison highlights the importance of evaluating multiple models on a dataset to identify the best approach. While both models have their strengths and weaknesses, the Decision Trees model appears to be a better fit for this dataset. Future work could focus on
 
 
 
