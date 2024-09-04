@@ -11,10 +11,32 @@ A classification problem in data science is a type of supervised learning proble
 ## Data understanding and Data Analysis
 The data used in this analysis contains data collected from the dataset: Heart disease-prediction. A heart disease prediction dataset typically consists of various features related to patient characterisctics and medical history. These features can include age, sex, blood pressure, cholestorol levels, smoking habits and other relevant factors. The dataset may also contain a target variable indicating whether the patient has a heart disease or not.
 
-Distribution of each column.
+## Distribution of each column.
 
 ![vis2](https://github.com/user-attachments/assets/77cdd2bf-bfbd-499f-ac1e-80cc047df6e3)
 
+# Observations
+* There are more males affected by heart disease than females
+* Chest pain type 1 is common
+* The majority have normal thalassemia
+* Most patients have 0 major vessels colored by fluroscopy,(ca)
+* Most patients do not have exercise-induced angina (0)
+* The majority of patients have either result 0 or 1 rest ecg
+
+## Distribution of Each Column Vs Target
+![vis1](https://github.com/user-attachments/assets/42bf780a-f328-469f-8c9e-19e2d60630fb)
+
+## Observations
+
+* The higher the slope, heart disease is more likely
+* There is no significant difference in resting blood pressure and cholestrol level between patients with and without heart disease.
+* Patients with heart disease tend to have a lower maximum heart rate achieved compared to those without heart disease.
+* Male patients(1) have a higher chance of heart disease than female patients(0)
+* The box plots shows that the age distribution is similar between patients with and without heart disease.
+* Patients with heart disease tend to have a lower maximum heart rate achieved compared to those without heart disease.
+* Higher rest ecg higher chances of having the disease.
+
+  
 
 
 
